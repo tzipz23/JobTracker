@@ -1,0 +1,53 @@
+div.JobInfo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+div.JobInfo {
+    
+    display:flex ;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+    padding-top: 2rem;
+    height: 80vh;
+    width: 80vw;
+    
+    border-radius: 8px;
+
+    backdrop-filter: blur(.3rem);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+    background-color: rgba(255,255,255,0.3);
+   
+}
+
+div.JobTitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+
+div.JobTitle.main {
+    font-size: larger;
+}
+
+div.JobTitle.long {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+div.MapContainer-wrapper {
+    margin-bottom: 3rem;
+}

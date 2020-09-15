@@ -1,0 +1,21 @@
+div.UserInfo-wrapper {
+    margin-top: 2rem;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+div.tag-wrapper-cont {
+    
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    height: 20rem;
+    width: 40vw;
+
+    margin-bottom: 1rem;
+    overflow-y: scroll;
+}

@@ -1,0 +1,41 @@
+div.user-info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    
+}
+
+div.user-info-wrapper {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(250, 250, 250, .3);
+    backdrop-filter: blur(.3rem);
+
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(80, 80, 80, .25);
+    
+    margin-top: 2rem;
+
+    
+    width: 60vw;
+    height: 80vh;
+    
+}
+
+div.UserAccount-container {
+    height: 60%;
+    
+}
+
+button.UA-save-btn {
+    background-color: rgb(14, 216, 135);
+    border-radius: 3px;
+    border: none;
+    padding: .3rem 1rem .3rem 1rem;
+}
